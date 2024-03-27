@@ -1,0 +1,8 @@
+prefix=/home/lmk/getdata_ws/install
+
+Name: data_get
+Description: Description of data_get
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -ldata_get
+Requires: cv_bridge_1 roscpp rospy std_msgs
